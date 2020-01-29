@@ -62,7 +62,7 @@ button:hover {
 
 body {
 	margin: 0;
-	background-color: lightgrey;
+	background-color: grey;
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -207,6 +207,7 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
+	background-image: linear-gradient(#073344, #092733);
 	height: auto;
 	display: flex;
 	justify-content: space-between;

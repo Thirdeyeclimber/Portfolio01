@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	background-color: #073344;
+}
+
+li, a, button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: #cccccc;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.logo {
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav-links li a {
+	transition: all 0.3 ease 0s;
+}
+
+.nav-links li a:hover {
+	color: #0088a9;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+}
+
+button:hover {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+	margin: 0;
+	background-color: lightgrey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: white;
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+h2 {
+	color: white;
+	font-size: 30px;
+	margin-top: 0%;
+	font-family: 'Open Sans', sans-serif;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.name {
+	color: white;
+	font-size: 40px;
+	margin-top: 0%;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.title {
+	color: white;
+	font-size: 30px;
+	margin-top: 0%;
+	font-family: 'Days One', sans-serif;
+	
+}
+
+h3 {
+	text-align: center;
+	font-size: 28px;
+	margin-top: 100px;
+}
+
+.orange {
+	height: 3px;
+	width: 100%;
+	background-color: orange;
+	border-width: 0;
+}
+
+h4 {
+	color: lightgrey;
+	font-weight: normal;
+	margin-top: 0%;
+}
+
+p {
+	padding: 2%;
+}
+
+.tagline {
+	color: lightgrey;
+	font-size: 8px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	padding: 4%;
+	margin-bottom: 4%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.bio {
+	color: lightgrey;
+	font-size: 8px;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 4%;
+}
+
+.me {
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: #727272;
+	margin-top: 6%;
+}
+
+.about {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10%;
+	padding: 4%;
+}
+
+.about-container {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.proj-container-1 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.proj-container-2 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.proj-container-3 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.edu-container {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+footer {
+  display: block;
+}
+
+li, a, button {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	color: #edf0f1;
+	text-decoration: none;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.logo {
+	cursor: pointer;
+	fill: white;
+}
+
+.nav-links {
+	list-style: none;
+}
+
+.nav-links li {
+	display: inline-block;
+	padding: 0px 20px;
+}
+
+.nav__links li a {
+	transition: all 0.3 ease 0s;
+}
+
+.nav__links li a:hover {
+	color: #0088a9;
+}
+
+button {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 1);
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+	transition: all 0.3 ease 0s;
+}
+
+button:hover {
+	padding: 9px 25px;
+	background-color: rgba(0, 136, 169, 0.8);
+}
+
+body {
+	margin: 0;
+	background-color: lightgrey;
+	font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+	color: white;
+	font-size: 70px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 0%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+h2 {
+	color: white;
+	font-size: 30px;
+	margin-top: 0%;
+	font-family: 'Open Sans', sans-serif;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.name {
+	color: white;
+	font-size: 40px;
+	margin-top: 0%;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+
+.title {
+	color: white;
+	font-size: 30px;
+	margin-top: 0%;
+	font-family: 'Days One', sans-serif;
+	
+}
+
+h3 {
+	text-align: center;
+	font-size: 28px;
+	margin-top: 100px;
+}
+
+.orange {
+	height: 3px;
+	width: 100%;
+	background-color: orange;
+	border-width: 0;
+}
+
+h4 {
+	color: lightgrey;
+	font-weight: normal;
+	margin-top: 0%;
+}
+
+p {
+	padding: 2%;
+}
+
+.tagline {
+	color: lightgrey;
+	font-size: 8px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	padding: 4%;
+	margin-bottom: 4%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.bio {
+	color: lightgrey;
+	font-size: 8px;
+	text-align: left;
+	margin-top: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	font-size: 16px;
+	padding: 4%;
+}
+
+.me {
+	height: 150px;
+	border-radius: 100%;
+	border-style: solid;
+	border-color: #727272;
+	margin-top: 6%;
+}
+
+.about {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10%;
+	padding: 4%;
+}
+
+.about-container {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.proj-container {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+.edu-container {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 10%;
+}
+
+footer {
+  display: block;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumbnail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}

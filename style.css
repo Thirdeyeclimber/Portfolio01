@@ -30,7 +30,7 @@ header {
 
 .nav-links li {
 	display: inline-block;
-	padding: 0px 20px;
+	padding: 0px 25px;
 }
 
 .nav-links li a {
@@ -38,7 +38,7 @@ header {
 }
 
 .nav-links li a:hover {
-	color: #0088a9;
+	color: black;
 }
 
 button {
@@ -89,7 +89,7 @@ h2 {
 
 .title {
 	color: white;
-	font-size: 30px;
+	font-size: 36px;
 	margin-top: 0%;
 	letter-spacing: .2rem;
 	font-family: 'Days One', sans-serif;
@@ -99,7 +99,7 @@ h2 {
 h3 {
 	text-align: center;
 	font-size: 28px;
-	margin-top: 100px;
+	margin-top: 80px;
 }
 
 .orange {
@@ -112,20 +112,17 @@ h3 {
 h4 {
 	color: lightgrey;
 	font-weight: normal;
+	font-size: 20px;
 	margin-top: 0%;
 }
 
 .tagline {
 	color: lightgrey;
-	font-size: 8px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	font-size: 16px;
-	padding: 4%;
-	margin-bottom: 4%;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
+	padding: 2%;
+	margin-bottom: 2%;
 }
 
 .bio {
@@ -154,8 +151,8 @@ h4 {
 	margin-right: auto;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 3%;
-	padding: 2%;
+	border-radius: 5%;
+	padding: 4%;
 }
 
 .about-container {
@@ -168,7 +165,7 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10%;
+	padding: 20px 10%;
 }
 
 .proj-container-1 {
@@ -176,15 +173,28 @@ h4 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
-	background-image: linear-gradient(#085e80, #0a455c);
+	background-image: linear-gradient(grey, #0f678a);
 	height: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 3%;
+	padding: 20px 10%;
 }
 
 .proj-container-2 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	background-image: linear-gradient(#0f678a, #0a455c);
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 10%;
+}
+
+.proj-container-3 {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -194,24 +204,11 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 3%;
-}
-
-.proj-container-3 {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	background-image: linear-gradient(#073344, #062a38);
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 10%;
+	padding: 20px 10%;
 }
 
 .edu-container {
-	background-image: repeating-linear-gradient(#062a38, #03161d);
+	background-image: repeating-linear-gradient(gray, #073344);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -220,17 +217,28 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 20px 10%;
+}
+
+footer {
+	background-color: black;
+	display: flex;
 	padding: 10px 10%;
+	border-top: indigo solid 4px;
 }
 
 .github-btn {
 	float: right;
-	margin-left: 10px;
+	padding-right: 5%;
 }
 
 .live-demo-btn {
 	float: left;
-	margin-left: 10px;
+	padding-left: 5%;
+}
+
+.cta {
+	display: flex;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -259,7 +267,7 @@ h4 {
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 40px;
   border-radius: 0 3px 3px 0;
   user-select: none;
   -webkit-user-select: none;

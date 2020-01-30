@@ -27,10 +27,13 @@
 					<hr class="orange"/>
           <h4>Designed and Created an easy-to-use system to manage Special Orders</h4>
         </div>
-				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRVNQeI7Fk2-ziLwBslURSkW8jwo0O77TF_EQMvgX3JbmoY3cdyFjaFCNeVLgOZcmz16hfO7MHrf-SA/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRVNQeI7Fk2-ziLwBslURSkW8jwo0O77TF_EQMvgX3JbmoY3cdyFjaFCNeVLgOZcmz16hfO7MHrf-SA/embed?start=true&loop=true&delayms=5000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+				<br><br>
+				<a class="live-demo-btn" href="https://www.google.com/search?q=la+sportiva+factory+store&oq=la&aqs=chrome.0.69i59j69i57j0l3j69i61j69i60l2.1167j0j1&sourceid=chrome&ie=UTF-8#lrd=0x876bedde884940d7:0x45a4a600ad313409,1,,,"><button>Take a look at our reviews</button></a>
 				<p class="bio">
         Michael Designed and implemented a smashing success on his first paid gig! 
-        <br><br>Utilizing third-party applications such as Google Business Suite; Forms, Sheets, Gmail, Zapier, Trello. Michael was able to cobble together a dependable system for both front and back end users for a win-win-win for Customers, Employees, and Business Owners. <br><br>The project paved way for a new stream of revenue in the retail store that was previously untapped.
+				<br><br>Utilizing third-party applications such as Google Business Suite; Forms, Sheets, Gmail, Zapier, Trello. Michael was able to cobble together a dependable system for both front and back end users for a win-win-win for Customers, Employees, and Business Owners. <br><br>
+				The project paved way for a new stream of revenue in the retail store that was previously untapped.
 				</p>
 			</div>
     </div>
@@ -117,7 +120,7 @@
         Utilizing Agile Development Meetings to connect 4 people and turn ideas into applications. This project allows people to connect with their personal trainers and record workouts.
 				</p>
 			</div>
-    </div>
+		</div>
     
     <div class="proj-container-3">
       <div class="about"> 
@@ -127,7 +130,13 @@
 					<hr class="orange"/>
           <h4>Built a Video Teaching website with instruction</h4>
         </div>
-        <iframe src="" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+			<div>
+				<img src="images/flixter1.png" style="width:100%">
+				<br><br>
+				<a class="live-demo-btn" href="https://flixter-michael-day.herokuapp.com"><button>Live Demo</button></a>
+				<a class="github-btn" href="https://github.com/Thirdeyeclimber/flixter"><button>Github</button></a>
+      </div>
+
 				<p class="bio">
         Utilizing HTML, CSS, Ruby on Rails, PostgreSQL, and Heroku to build this website with a paywall. Experience implementing 
 				</p>
@@ -136,35 +145,35 @@
 		
 		<script>
 			var slideIndex = 1;
-showSlides(slideIndex);
+			showSlides(slideIndex);
 
-// Next/previous controls
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
+			// Next/previous controls
+			function plusSlides(n) {
+				showSlides(slideIndex += n);
+			}
 
-// Thumbnail image controls
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
+			// Thumbnail image controls
+			function currentSlide(n) {
+				showSlides(slideIndex = n);
+			}
 
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("demo");
-  var captionText = document.getElementById("caption");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-  captionText.innerHTML = dots[slideIndex-1].alt;
-}
+			function showSlides(n) {
+				var i;
+				var slides = document.getElementsByClassName("mySlides")
+				var dots = document.getElementsByClassName("demo");
+				var captionText = document.getElementById("caption");
+				if (n > slides.length) {slideIndex = 1}
+				if (n < 1) {slideIndex = slides.length}
+				for (i = 0; i < slides.length; i++) {
+					slides[i].style.display = "none";
+				}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				captionText.innerHTML = dots[slideIndex-1].alt;
+			}
 		</script>
   </body>
 </html>

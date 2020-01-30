@@ -1,13 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans&display=swap');
-
 @import url('https://fonts.googleapis.com/css?family=Days+One&display=swap');
 
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-	background-color: #073344;
-}
+
 
 li, a, button {
 	font-family: 'Montserrat', sans-serif;
@@ -22,6 +16,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 10%;
+	border-bottom: black solid 4px;
 }
 
 .logo {
@@ -96,6 +91,7 @@ h2 {
 	color: white;
 	font-size: 30px;
 	margin-top: 0%;
+	letter-spacing: .2rem;
 	font-family: 'Days One', sans-serif;
 	
 }
@@ -117,10 +113,6 @@ h4 {
 	color: lightgrey;
 	font-weight: normal;
 	margin-top: 0%;
-}
-
-p {
-	padding: 2%;
 }
 
 .tagline {
@@ -157,16 +149,17 @@ p {
 }
 
 .about {
-	width: 600px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 10%;
-	padding: 4%;
+	border-radius: 3%;
+	padding: 2%;
 }
 
 .about-container {
+	background-image: repeating-linear-gradient(grey, #032938);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -183,11 +176,12 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
+	background-image: linear-gradient(#085e80, #0a455c);
 	height: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10%;
+	padding: 10px 3%;
 }
 
 .proj-container-2 {
@@ -195,11 +189,12 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
+	background-image: linear-gradient(#0a455c, #073344);
 	height: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 10px 10%;
+	padding: 10px 3%;
 }
 
 .proj-container-3 {
@@ -207,7 +202,7 @@ p {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
-	background-image: linear-gradient(#073344, #092733);
+	background-image: linear-gradient(#073344, #062a38);
 	height: auto;
 	display: flex;
 	justify-content: space-between;
@@ -216,6 +211,7 @@ p {
 }
 
 .edu-container {
+	background-image: repeating-linear-gradient(#062a38, #03161d);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -227,205 +223,14 @@ p {
 	padding: 10px 10%;
 }
 
-footer {
-  display: block;
+.github-btn {
+	float: right;
+	margin-left: 10px;
 }
 
-li, a, button {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 500;
-	font-size: 16px;
-	color: #edf0f1;
-	text-decoration: none;
-}
-
-header {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 10%;
-}
-
-.logo {
-	cursor: pointer;
-	fill: white;
-}
-
-.nav-links {
-	list-style: none;
-}
-
-.nav-links li {
-	display: inline-block;
-	padding: 0px 20px;
-}
-
-.nav__links li a {
-	transition: all 0.3 ease 0s;
-}
-
-.nav__links li a:hover {
-	color: #0088a9;
-}
-
-button {
-	padding: 9px 25px;
-	background-color: rgba(0, 136, 169, 1);
-	border: none;
-	border-radius: 50px;
-	cursor: pointer;
-	transition: all 0.3 ease 0s;
-}
-
-button:hover {
-	padding: 9px 25px;
-	background-color: rgba(0, 136, 169, 0.8);
-}
-
-body {
-	margin: 0;
-	background-color: lightgrey;
-	font-family: 'Open Sans', sans-serif;
-}
-
-h1{
-	color: white;
-	font-size: 70px;
-	font-family: 'Montserrat', sans-serif;
-	margin-top: 0%;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
-
-h2 {
-	color: white;
-	font-size: 30px;
-	margin-top: 0%;
-	font-family: 'Open Sans', sans-serif;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
-}
-
-.name {
-	color: white;
-	font-size: 40px;
-	margin-top: 0%;
-	font-family: 'Open Sans', sans-serif;
-	
-}
-
-.title {
-	color: white;
-	font-size: 30px;
-	margin-top: 0%;
-	font-family: 'Days One', sans-serif;
-	
-}
-
-h3 {
-	text-align: center;
-	font-size: 28px;
-	margin-top: 100px;
-}
-
-.orange {
-	height: 3px;
-	width: 100%;
-	background-color: orange;
-	border-width: 0;
-}
-
-h4 {
-	color: lightgrey;
-	font-weight: normal;
-	margin-top: 0%;
-}
-
-p {
-	padding: 2%;
-}
-
-.tagline {
-	color: lightgrey;
-	font-size: 8px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	font-size: 16px;
-	padding: 4%;
-	margin-bottom: 4%;
-	border-bottom-left-radius: 10px;
-	border-bottom-right-radius: 10px;
-}
-
-.bio {
-	color: lightgrey;
-	font-size: 8px;
-	text-align: left;
-	margin-top: 5%;
-	margin-left: auto;
-	margin-right: auto;
-	border-radius: 10px;
-	font-size: 16px;
-	padding: 4%;
-}
-
-.me {
-	height: 150px;
-	border-radius: 100%;
-	border-style: solid;
-	border-color: #727272;
-	margin-top: 6%;
-}
-
-.about {
-	width: 600px;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
-	border-radius: 10%;
-	padding: 4%;
-}
-
-.about-container {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 10%;
-}
-
-.proj-container {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 10%;
-}
-
-.edu-container {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px 10%;
-}
-
-footer {
-  display: block;
+.live-demo-btn {
+	float: left;
+	margin-left: 10px;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -477,7 +282,7 @@ footer {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
-  position: absolute;
+  position: relative;
   top: 0;
 }
 

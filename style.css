@@ -229,12 +229,12 @@ footer {
 
 .github-btn {
 	float: right;
-	padding-right: 5%;
+	padding-right: 25%;
 }
 
 .live-demo-btn {
 	float: left;
-	padding-left: 5%;
+	padding-left: 25%;
 }
 
 .cta {

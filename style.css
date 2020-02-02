@@ -7,7 +7,7 @@ li, a, button {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
 	font-size: 20px;
-	color: #cccccc;
+	color:#cccccc;
 	text-decoration: none;
 }
 
@@ -16,7 +16,9 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 10px 10%;
-	border-bottom: black solid 4px;
+	border-bottom: black solid 6px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
 }
 
 .logo {
@@ -57,7 +59,7 @@ button:hover {
 
 body {
 	margin: 0;
-	background-color: grey;
+	background-image: linear-gradient(rgb(6, 83, 119), indigo);
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -96,12 +98,6 @@ h2 {
 	
 }
 
-h3 {
-	text-align: center;
-	font-size: 28px;
-	margin-top: 80px;
-}
-
 .orange {
 	height: 3px;
 	width: 100%;
@@ -112,7 +108,7 @@ h3 {
 h4 {
 	color: lightgrey;
 	font-weight: normal;
-	font-size: 20px;
+	font-size: 14px;
 	margin-top: 0%;
 }
 
@@ -121,7 +117,7 @@ h4 {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 2%;
+
 	margin-bottom: 2%;
 }
 
@@ -156,7 +152,6 @@ h4 {
 }
 
 .about-container {
-	background-image: repeating-linear-gradient(grey, #032938);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -173,7 +168,7 @@ h4 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
-	background-image: linear-gradient(grey, #0f678a);
+	/* background-image: linear-gradient(grey, #0f678a); */
 	height: auto;
 	display: flex;
 	justify-content: space-between;
@@ -186,7 +181,7 @@ h4 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
-	background-image: linear-gradient(#0f678a, #0a455c);
+	/* background-image: linear-gradient(#0f678a, #0a455c); */
 	height: auto;
 	display: flex;
 	justify-content: space-between;
@@ -199,7 +194,20 @@ h4 {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
-	background-image: linear-gradient(#0a455c, #073344);
+	/* background-image: linear-gradient(#0a455c, #073344); */
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 10%;
+}
+
+.proj-container-4 {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: 100%;
+	/* background-image: linear-gradient(#0a455c, #073344); */
 	height: auto;
 	display: flex;
 	justify-content: space-between;
@@ -208,7 +216,7 @@ h4 {
 }
 
 .edu-container {
-	background-image: repeating-linear-gradient(gray, #073344);
+	/* background-image: repeating-linear-gradient(gray, #073344); */
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -221,10 +229,11 @@ h4 {
 }
 
 footer {
-	background-color: black;
 	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	padding: 10px 10%;
-	border-top: indigo solid 4px;
+	border-top: black solid 6px;
 }
 
 .github-btn {
@@ -237,9 +246,9 @@ footer {
 	padding-left: 25%;
 }
 
-.cta {
+/* .cta {
 	display: flex;
-}
+} */
 
 /* Position the image container (needed to position the left and right arrows) */
 .container {

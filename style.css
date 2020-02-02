@@ -163,64 +163,12 @@ h4 {
 	padding: 20px 10%;
 }
 
-.proj-container-1 {
+.proj-container {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: 100%;
 	/* background-image: linear-gradient(grey, #0f678a); */
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 10%;
-}
-
-.proj-container-2 {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	/* background-image: linear-gradient(#0f678a, #0a455c); */
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 10%;
-}
-
-.proj-container-3 {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	/* background-image: linear-gradient(#0a455c, #073344); */
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 10%;
-}
-
-.proj-container-4 {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
-	/* background-image: linear-gradient(#0a455c, #073344); */
-	height: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 20px 10%;
-}
-
-.edu-container {
-	/* background-image: repeating-linear-gradient(gray, #073344); */
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: 100%;
 	height: auto;
 	display: flex;
 	justify-content: space-between;

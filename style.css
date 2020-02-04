@@ -59,7 +59,7 @@ button:hover {
 
 body {
 	margin: 0;
-	background-image: linear-gradient(rgb(6, 83, 119), indigo);
+	background-image: linear-gradient(rgb(6, 83, 119), rgb(14, 99, 99));
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -160,6 +160,7 @@ h4 {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	padding: 2%;
 }
 
 .proj-container {

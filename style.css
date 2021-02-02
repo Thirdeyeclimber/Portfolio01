@@ -55,9 +55,8 @@ button {
 button:hover {
 
 	padding: 9px 25px;
-	background-color: #00000069;
+	background-color: rgba(4, 1, 163, 0.349);
 	border: none;
-	border-radius: 5px;
 	cursor: pointer;
 	transition: all 0.3 ease 0s;
 }
@@ -277,4 +276,76 @@ footer {
 .active,
 .demo:hover {
   opacity: 1;
+}
+
+
+/* CALCULATOR */
+*.calculator, *::before.calculator, *::after.calculator {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: normal;
+}
+
+.calculator {
+  padding: 0;
+  margin: 0;
+  background: linear-gradient(to right, #2500ac, #1e0252);
+}
+
+.calculator-grid {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  min-height: 100vh;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+  padding: 5%;
+}
+
+.calculator-grid > button {
+  cursor: pointer;
+  font-size: 2rem;
+  border: 1px solid white;
+  outline: none;
+  background-color: rgba(0, 59, 168, 0.9);
+}
+
+.calculator-grid > button:hover {
+  background-color: rgba(0, 56, 129, 0.7);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  grid-column: 1 / -1;
+  background-color: rgba(0, 0, 0, .75);
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 10px;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .previous-operand {
+  color: rgba(255, 255, 255, .75);
+  font-size: 1.5rem;
+}
+
+.output .current-operand {
+  color: white;
+  font-size: 2.5rem;
+}
+
+.equals {
+  border-bottom-right-radius: 10px;
+}
+
+.dot {
+  border-bottom-left-radius: 10px;
 }
